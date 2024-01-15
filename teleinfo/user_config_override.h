@@ -358,14 +358,14 @@
 #define USE_I2C                                // Disable all I2C sensors and devices
 #define USE_DISPLAY                            // Add Display support
 
-#undef USE_BLE_ESP32
-#undef USE_MI_ESP32
-#undef USE_IBEACON
+#define USE_BLE_ESP32
+#define USE_MI_ESP32
+#define USE_IBEACON
 
 #define USE_AUTOCONF                           // Enable Esp32 autoconf feature
 #define USE_BERRY                              // Enable Berry scripting langage
 
-#undef USE_DISPLAY
+//#undef USE_DISPLAY
 #undef USE_SR04
 #undef USE_LVGL
 
